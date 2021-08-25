@@ -35,7 +35,6 @@ body {
   justify-content: center;
   align-items: center;
   background: no-repeat url('./assets/pattern-curve.svg') bottom left;
-  padding: 54px 32px 75px 32px;
   min-height: 100vh;
 }
 
