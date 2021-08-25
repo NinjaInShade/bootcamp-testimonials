@@ -1,6 +1,6 @@
-# Frontend Mentor - Huddle landing page with single introductory section
+# Frontend Mentor - Coding bootcamp testimonials slider solution
 
-This is a solution to the [# Frontend Mentor - Huddle landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Coding bootcamp testimonials slider challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -19,8 +19,8 @@ This is a solution to the [# Frontend Mentor - Huddle landing page challenge on 
 
 Users should be able to:
 
-- View the optimal layout for the page depending on their device's screen size
-- See hover states for all interactive elements on the page
+- View the optimal layout for the component depending on their device's screen size
+- Navigate the slider using either their mouse/trackpad or keyboard
 
 ### Screenshot
 

@@ -1,5 +1,5 @@
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
@@ -10,15 +10,16 @@
 :root {
   scroll-behavior: smooth;
   font-size: 16px;
-
-  /* Primary */
-
   /* Neutral */
+  --black: #202047;
+  --gray: #b9b9ce;
 
   /* Typography */
-  --h1: 1.75rem;
+  --body: 2rem;
+  --body-line-height: 44px;
 
-  --body: 1rem;
+  --body-s: 1.25rem;
+  --body-line-height-s: 38px;
 
   /* Other */
 }
@@ -30,18 +31,22 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: var(--h1);
-}
-
 .body-text {
   font-size: var(--body);
+  line-height: var(--body-line-height);
+}
+
+.body-s-text {
+  font-size: var(--body-s);
+  line-height: var(--body-s-line-height);
 }
 
 @media (max-width: 375px) {
   :root {
-    --h1: 22px;
+    --body: 1.125rem;
+    --body-line-height: 24px;
 
-    --body: 0.938rem;
+    --body-s: 0.938rem;
+    --body-line-height-s: 20px;
   }
 }
