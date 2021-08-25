@@ -42,7 +42,9 @@ Users should be able to:
 
 ### What I learned
 
-Not done yet.
+I really utilised negative margins for overlapping stuff in this project. I only realised their value not long ago, and am loving how useful they are! I also had to use a fair bit of relative/absolute positioning which helped me practice that.
+
+I learned how to make a animated slider too.
 
 ## Author
 

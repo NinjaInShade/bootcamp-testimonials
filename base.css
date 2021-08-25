@@ -7,6 +7,12 @@
   padding: 0;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
 :root {
   scroll-behavior: smooth;
   font-size: 16px;
@@ -43,12 +49,16 @@ body {
   line-height: var(--body-s-line-height);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   :root {
     --body: 1.125rem;
     --body-line-height: 24px;
 
     --body-s: 0.938rem;
     --body-line-height-s: 20px;
+  }
+
+  body {
+    background: no-repeat url('./assets/pattern-curve.svg') bottom left / 75% 10%;
   }
 }
