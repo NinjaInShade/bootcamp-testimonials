@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-text-container {
+  margin-right: -65px;
+  max-width: 635px;
+  z-index: 3;
+}
+
+.testimonial-bottom-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.testimonial-text {
+  color: var(--black);
+  font-weight: 300;
+}
+
+.testimonial-name {
+  color: var(--black);
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.testimonial-role {
+  color: var(--gray);
+  font-weight: 500;
+}
+
+.testimonial-controls-container {
+  position: relative;
+  max-width: 540px;
+  max-height: 540px;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-bg {
+  position: absolute;
+  transform: translateY(-50%);
+  right: -95px;
+  z-index: 1;
+  top: 50%;
+}
+
+.testimonial-img {
+  position: relative;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.testimonial-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 15px 20px -10px rgba(36, 36, 113, 0.1);
+  border-radius: 28px;
+  padding: 17px 18px;
+  bottom: -28px;
+  left: 62px;
+  z-index: 2;
+}
+
+.testimonial-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.testimonial-control:hover path {
+  transition: all 0.2s ease-in-out;
+  stroke: var(--black);
+}
+
+.testimonial-control:focus {
+  transition: all 0.2s ease-in-out;
+  border: 2px dotted black;
+}
+
+.testimonial-control:focus path {
+  transition: all 0.2s ease-in-out;
+  stroke: var(--black);
+}
+
+.testimonial-control:first-child {
+  margin-right: 48px;
+}
