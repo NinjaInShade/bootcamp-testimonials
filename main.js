@@ -58,11 +58,13 @@ function displayNext() {
 // Enable use of slider with keyboard right and left arrows
 document.body.addEventListener('keydown', function (event) {
   if (event.key === 'ArrowLeft') {
-    return previousBtn.focus();
+    previousBtn.focus();
+    return displayPrevious();
   }
 
   if (event.key === 'ArrowRight') {
-    return nextBtn.focus();
+    nextBtn.focus();
+    return displayNext();
   }
 
   return;
