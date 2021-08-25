@@ -44,7 +44,7 @@ Users should be able to:
 
 I really utilised negative margins for overlapping stuff in this project. I only realised their value not long ago, and am loving how useful they are! I also had to use a fair bit of relative/absolute positioning which helped me practice that.
 
-I learned how to make a animated slider too.
+I learned how to make a slider too. I learnt how to enable use of keyboard arrow keys to focus and select elements in the HTML using the focus() method.
 
 ## Author
 
