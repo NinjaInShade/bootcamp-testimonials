@@ -28,6 +28,14 @@ let sliderData = [
 ];
 
 function updateContent() {
+  // Forces the fadeIn animation we have declared in CSS
+  document.body.classList.remove('animate');
+
+  //   For some reason this is needed (web development is weird)??
+  void document.body.offsetWidth;
+
+  document.body.classList.add('animate');
+
   textElement.innerText = sliderData[arrayIndex].text;
   nameElement.innerText = sliderData[arrayIndex].name;
   roleElement.innerText = sliderData[arrayIndex].role;
