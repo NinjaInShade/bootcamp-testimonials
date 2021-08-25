@@ -24,13 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Desktop_active_solution.png)
+![](./screenshots/Mobile_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/responsive-order-summary-card-TFXa8ZDRV) -->
-<!-- - Live Site URL: (https://lm-order-summary-component.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-testimonial-slider-with-focus-states-and-animation-KgsYTWUtw)
+- Live Site URL: (https://lm-bootcamp-testimonials.netlify.app/)
 
 ## My process
 
@@ -49,6 +50,8 @@ I learned how to make a slider too. I learnt how to enable use of keyboard arrow
 I had a global array with all every slide's data like texts, img and img alt in objects and a global variable which tracked the array index we would display. If previous button was clicked, we'd decrease this variable, and vice versa for next button.
 
 I had to make sure if array index was going to be smaller than the index's we had available in the array, we would loop back to the start/end of the array (prevent out of bounds error).
+
+Lastly, I added fadeIn animations for when the slide is changed. I just set up a simple Keyframes animation and set it on on each of the elements (text elements and img) but only when they were inside a .animate class. I then setup this class to be toggled with javascript on the body, so it forces the animations to happen again.
 
 ## Author
 
