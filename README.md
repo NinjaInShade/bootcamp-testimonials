@@ -44,7 +44,11 @@ Users should be able to:
 
 I really utilised negative margins for overlapping stuff in this project. I only realised their value not long ago, and am loving how useful they are! I also had to use a fair bit of relative/absolute positioning which helped me practice that.
 
-I learned how to make a slider too. I learnt how to enable use of keyboard arrow keys to focus and select elements in the HTML using the focus() method.
+I learned how to make a slider too. I learnt how to enable use of keyboard arrow keys to focus and select elements in the HTML using the focus() method. I managed to do all the javascript without any help.
+
+I had a global array with all every slide's data like texts, img and img alt in objects and a global variable which tracked the array index we would display. If previous button was clicked, we'd decrease this variable, and vice versa for next button.
+
+I had to make sure if array index was going to be smaller than the index's we had available in the array, we would loop back to the start/end of the array (prevent out of bounds error).
 
 ## Author
 
