@@ -59,5 +59,6 @@ body {
 
   body {
     background: no-repeat url('./assets/pattern-curve.svg') bottom left / 75% 10%;
+    min-height: 0;
   }
 }
